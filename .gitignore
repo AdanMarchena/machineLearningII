@@ -4,6 +4,7 @@
 # Permitir la carpeta Actividad1
 !Actividad1/
 !Actividad1/**
+!Actividad2/
 !Actividad2/**
 
 # Permitir el propio gitignore
