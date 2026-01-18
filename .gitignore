@@ -1,11 +1,37 @@
-# Ignorar todo
+# Ignorar todo por defecto
 *
 
-# Permitir la carpeta Actividad1
+# Permitir carpetas del curso
 !Actividad1/
 !Actividad1/**
 !Actividad2/
 !Actividad2/**
+!Proyecto_Final/
+!Proyecto_Final/**
 
-# Permitir el propio gitignore
+# Ignorar carpetas internas específicas del proyecto
+Proyecto_Final/assets/
+Proyecto_Final/referencias/
+Proyecto_Final/datasets/
+Proyecto_Final/__pycache__/
+
+# Ignorar PDFs
+*.pdf
+
+# Ignorar csvs
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# LaTeX temporales
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Permitir gitignore
 !.gitignore
