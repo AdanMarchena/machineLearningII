@@ -8,6 +8,8 @@
 !Actividad2/**
 !Proyecto_Final/
 !Proyecto_Final/**
+!Control2/
+!Control2/**
 
 # Ignorar carpetas internas específicas del proyecto
 Proyecto_Final/assets/
@@ -21,6 +23,11 @@ Proyecto_Final/__pycache__/
 # Ignorar csvs
 *.csv
 
+# Ignorar docs
+*.docx
+
+#Ignorar pptx
+*.pptx
 # Jupyter
 .ipynb_checkpoints/
 
