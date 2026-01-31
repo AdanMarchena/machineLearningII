@@ -6,6 +6,8 @@
 !Actividad1/**
 !Actividad2/
 !Actividad2/**
+!Actividad3/
+!Actividad3/**
 !Proyecto_Final/
 !Proyecto_Final/**
 !Control2/
@@ -30,6 +32,9 @@ Proyecto_Final/__pycache__/
 *.pptx
 # Jupyter
 .ipynb_checkpoints/
+
+__pycache__/
+*.py[cod]
 
 # LaTeX temporales
 *.aux
